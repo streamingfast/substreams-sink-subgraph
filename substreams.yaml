@@ -1,8 +1,8 @@
 specVersion: v0.1.0
 package:
-  name: substreams_subgraph_sink_protodefs
+  name: substreams_sink_subgraph_protodefs
   version: v0.1.0
-  url: https://github.com/streamingfast/substreams-subgraph-sink
+  url: https://github.com/streamingfast/substreams-sink-subgraph
   doc: |
     Protobuf definitions for Substreams Subgraph Sink modules.
 
@@ -10,6 +10,6 @@ package:
 
 protobuf:
   files:
-    - sf/substreams/subgraph/sink/v1/services.proto
+    - sf/substreams/sink/subgraph/sink/v1/services.proto
   importPaths:
     - ./proto

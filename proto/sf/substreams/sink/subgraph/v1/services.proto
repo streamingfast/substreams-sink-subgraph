@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package sf.substreams.subgraph.sink.v1;
+package sf.substreams.sink.subgraph.v1;
 
-option go_package = "github.com/streamingfast/substreams-subgraph-sink/pb;pbsubgraph";
+option go_package = "github.com/streamingfast/substreams-sink-subgraph/pb;pbsubgraph";
 
 import "sf/substreams/options.proto";
 

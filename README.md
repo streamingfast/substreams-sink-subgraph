@@ -1,2 +1,2 @@
-# substreams-subgraph-sink
+# substreams-sink-subgraph
 Substreams based subgraph sink config definition
