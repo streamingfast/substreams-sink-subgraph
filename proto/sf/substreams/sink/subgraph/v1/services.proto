@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package sf.substreams.sink.subgraph.v1;
+
+option go_package = "github.com/streamingfast/substreams-subgraph-sql/pb;pbsubgraph";
+
+import "sf/substreams/options.proto";
+
+message Service {
+  // Containing both create table statements and index creation statements
+  string schema = 1 [ (sf.substreams.options).load_from_file = true ];
+  string subgraph_yaml = 2 [ (sf.substreams.options).load_from_file = true ];
+  bool postgres_direct_protocol_access = 3;
+  PGWebFrontend pgweb_frontend = 4;
+}
+
+message PGWebFrontend {
+  bool enabled = 1;
+}
