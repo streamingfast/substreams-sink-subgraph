@@ -10,6 +10,6 @@ package:
 
 protobuf:
   files:
-    - sf/substreams/sink/subgraph/sink/v1/services.proto
+    - sf/substreams/sink/subgraph/v1/services.proto
   importPaths:
     - ./proto
