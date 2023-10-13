@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package sf.substreams.sink.subgraph.v1;
 
-option go_package = "github.com/streamingfast/substreams-subgraph-sql/pb;pbsubgraph";
+option go_package = "github.com/streamingfast/substreams-subgraph-sink/pb;pbsubgraph";
 
 import "sf/substreams/options.proto";
 
