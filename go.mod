@@ -1,4 +1,4 @@
-module github.com/streamingfast/substreams-subgraph-sink
+module github.com/streamingfast/substreams-sink-subgraph
 
 go 1.21
 
